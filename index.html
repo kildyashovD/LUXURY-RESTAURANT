@@ -8,7 +8,7 @@
 
 <body>
 
-  <h1 class="visible-hidden">Luxury Restaurant</h1>
+  <h1 class="visually-hidden">Luxury Restaurant</h1>
 
   <!-- HEADER -->
 
@@ -21,17 +21,17 @@
     		</a>
 
       <!-- MAIN NAV -->
-      <nav class="main-header__nav main-nav">
+      <nav class="main-header__nav">
 
-        <ul class="main-nav__list list">
+        <ul class="main-nav">
 
-          <li class="list__item"><a href="#" class="list__link">Home</a></li>
-          <li class="list__item"><a href="#" class="list__link">menu</a></li>
-          <li class="list__item"><a href="#" class="list__link">reservation</a></li>
-          <li class="list__item"><a href="#" class="list__link">recipe</a></li>
-          <li class="list__item"><a href="#" class="list__link">blog</a></li>
-          <li class="list__item"><a href="#" class="list__link">Pages</a></li>
-          <li class="list__item"><a href="#" class="list__link">contact</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Home</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">menu</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">reservation</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">recipe</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">blog</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">Pages</a></li>
+          <li class="main-nav__item"><a href="#" class="main-nav__link">contact</a></li>
 
         </ul>
 
@@ -55,7 +55,7 @@
 
       <div class="container">
 
-        <h2 class="visible-hidden">rewies special</h2>
+        <h2 class="visually-hidden">rewies special</h2>
 
         <!-- CAROUSEL -->
         <ul class="rewies-slider__carousel carousel">
@@ -203,22 +203,22 @@
         <!-- RESERVE FORM -->
         <form action="" class="reserve__form form">
 
-          <label for="" class="visible-hidden">Name</label>
+          <label for="" class="visually-hidden">Name</label>
           <input type="text" class="form__name" placeholder="Name*" required>
 
-          <label for="" class="visible-hidden"></label>
+          <label for="" class="visually-hidden"></label>
           <input type="text" class="form__time*" placeholder="Time*" required>
 
-          <label for="" class="visible-hidden"></label>
+          <label for="" class="visually-hidden"></label>
           <input type="text" class="form__guests" placeholder="Guests*" required>
 
-          <label for="" class="visible-hidden"></label>
+          <label for="" class="visually-hidden"></label>
           <input type="text" class="form__email" placeholder="Email address*" required>
 
-          <label for="" class="visible-hidden"></label>
+          <label for="" class="visually-hidden"></label>
           <input type="text" class="form__date" placeholder="Date*" required>
 
-          <label for="" class="visible-hidden"></label>
+          <label for="" class="visually-hidden"></label>
           <input type="text" class="form__tel-number" placeholder="Phone*" required>
 
           <button type="submit">Make reservation</button>
@@ -387,24 +387,95 @@
       </ul>
 
     </section>
-    
+
     <section class="work-time">
-      
-      <h2 class="work-time__heading">Opening hours</h2>
-      
-      <dl class="work-time__week-day description-list">
-        <dt class="description-list__term">Monday to Friday</dt>
-        <dd class="description-list__def">10am - 10pm</dd>
-      </dl>
-      
-      <dl class="work-time__week-end description-list">
-        <dt class="description-list__term">Saturday to Sunday</dt>
-        <dd class="description-list__def">09am - 11pm</dd>
-      </dl>
-      
+
+      <div class="container">
+
+        <h2 class="work-time__heading">Opening hours</h2>
+
+        <dl class="work-time__week-day description-list">
+          <dt class="description-list__term">Monday to Friday</dt>
+          <dd class="description-list__def">10am - 10pm</dd>
+        </dl>
+
+        <dl class="work-time__week-end description-list">
+          <dt class="description-list__term">Saturday to Sunday</dt>
+          <dd class="description-list__def">09am - 11pm</dd>
+        </dl>
+
+      </div>
+
     </section>
 
   </main>
+
+  <footer class="footer">
+
+    <h2 class="visually-hidden">Footer of the site</h2>
+
+    <div class="container">
+
+      <!-- FOOTER NAV -->
+      <nav class="footer__item footer-nav">
+
+        <h3 class="footer-nav__heading">Navigation</h3>
+
+        <ul class="footer-nav__nav">
+
+          <li class="footer-nav__item"><a href="" class="footer-nav__link">Home</a></li>
+          <li class="footer-nav__item"><a href="" class="footer-nav__link">About us</a></li>
+          <li class="footer-nav__item"><a href="" class="footer-nav__link">Menu</a></li>
+          <li class="footer-nav__item"><a href="" class="footer-nav__link">Reservation</a></li>
+          <li class="footer-nav__item"><a href="" class="footer-nav__link">Recipe</a></li>
+          <li class="footer-nav__item"><a href="" class="footer-nav__link">Blog</a></li>
+          <li class="footer-nav__item"><a href="" class="footer-nav__link">Contact us</a></li>
+
+        </ul>
+
+      </nav>
+
+      <div class="footer__item subscribe">
+
+        <h3 class="subscribe__heading">News letter</h3>
+
+        <form class="subscribe__form" method="post">
+
+          <div class="container">
+            <label for="subscribe-form-email">Enter your email address and subscribe daily newsletter</label>
+            <input type="email" id="subscribe-form-email" placeholder="Email Address">
+          </div>
+          
+          <button type="submit" class="subscribe__btn btn">Subscribe</button>
+
+        </form>
+        
+        <ul class="icons">
+          
+          <li class="icons__item"><a href="#" class="icons__link">Facebook</a></li>
+          <li class="icons__item"><a href="#" class="icons__link">Twitter</a></li>
+          <li class="icons__item"><a href="#" class="icons__link">Google plus</a></li>
+          
+        </ul>
+
+      </div>
+      
+      <ul class="mobile-app">
+       
+        <li class="mobeli-app__item"><a href="#" class="mobile-app__app-store"><p class="mobile-app__content">Avilable on the App Store</p></a></li>
+        <li class="mobeli-app__item"><a href="#" class="mobile-app__google-play"><p class="mobile-app__content">Get it on Google Play</p></a></li>
+        
+      </ul>
+
+    </div>
+    
+    <div class="container">
+      
+      <p class="rights"><cite>2016 ©  Luxury Restaurant</cite>, All rights reserved</p>
+      
+    </div>
+
+  </footer>
 
 </body>
 
