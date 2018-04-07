@@ -42,6 +42,11 @@ input[type="radio"].visually-hidden {
   overflow: hidden;
 }
 
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
 
 
 
@@ -134,6 +139,15 @@ input[type="radio"].visually-hidden {
   #MINI-FOOD-MENU
 \*------------------------------------*/
 
+.container__mini-food-menu-and-special {
+  display: flex;
+  flex-direction: row;
+}
+
+.mini-food-menu {
+  width: 50%;
+}
+
 .mini-food-menu__heading {
   font-family: 'Playfair Display', Times, serif;
   font-size: 35px;
@@ -186,6 +200,10 @@ input[type="radio"].visually-hidden {
   #TODAY-SPECIAL
 \*------------------------------------*/
 
+.today-special {
+  width: 50%;
+}
+
 .today-special__heading {
   font-family: 'Playfair Display', Times, serif;
   font-size: 35px;
@@ -210,4 +228,60 @@ input[type="radio"].visually-hidden {
 
 .product-card__price sup {
   font-size: 12px;
+}
+
+
+
+
+/*------------------------------------*\
+  #RESERVE-FORM
+\*------------------------------------*/
+
+.reserve {
+  min-height: 518px;
+
+  background-image: url("http://via.placeholder.com/1970x518");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.reserve__heading {
+  font-family: 'Playfair Display', Times, serif;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 38px;
+  color: rgb(255, 255, 255);
+}
+
+.reserve__form input {
+  line-height: 26px;
+}
+
+.reserve-form__btn {
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 30px;
+  text-transform: uppercase;
+
+  background-color: rgb(254, 161, 0);
+}
+
+.reserve__additional-info {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.reserve__additional-info_pink-color {
+  color: rgb(254, 76, 141);
+}
+
+.reserve__tel-number {
+  font-family: 'Playfair Display', Times, serif;
+  font-size: 24px;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
 }

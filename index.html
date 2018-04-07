@@ -50,12 +50,10 @@
   </header>
 
   <!-- MAIN CONTAINER -->
-  <main class="container">
+  <main class="main-content">
 
     <!-- rewies SLIDER -->
     <section class="rewies-slider">
-
-      <div class="container">
 
         <h2 class="visually-hidden">rewies special</h2>
 
@@ -64,41 +62,46 @@
 
           <!-- CAROUSEL ITEM 1 -->
           <li class="carousel__item">
+            <div class="container">
 
               <h3 class="carousel__heading">Teast your fav dish <span class="carousel__heading_less-font-size">from luxury restaurent.</span></h3>
               <p class="carousel__icon">tel number icon</p>
               <p class="carousel__paragraph">Call us and book your table</p>
               <p class="rewies-slider__tel-number">1-008 005 006</p>
 
+            </div>
           </li>
 
           <!-- CAROUSEL ITEM 2 -->
           <li class="carousel__item">
+            <div class="container">
 
               <h3 class="carousel__heading">Lorem ipsum dolor sit amet, <span class="carousel__heading_less-font-size">consectetur adipisicing elit.</span></h3>
               <p class="carousel__icon">tel number icon</p>
               <p class="carousel__paragraph">Call us and book your table</p>
               <p class="rewies-slider__tel-number">1-008 005 006</p>
 
+            </div>
           </li>
 
           <!-- CAROUSEL ITEM 3 -->
           <li class="carousel__item">
+            <div class="container">
 
               <h3 class="carousel__heading">Lorem ipsum dolor sit amet, <span class="carousel__heading_less-font-size">consectetur adipisicing elit.</span></h3>
               <p class="carousel__icon">tel number icon</p>
               <p class="carousel__paragraph">Call us and book your table</p>
               <p class="rewies-slider__tel-number">1-008 005 006</p>
 
+            </div>
           </li>
 
         </ul>
 
-      </div>
-
     </section>
 
-    <section class="mini-food-menu">
+    <div class="container container__mini-food-menu-and-special">
+      <section class="mini-food-menu">
 
       <h2 class="mini-food-menu__heading">Food Menu</h2>
 
@@ -155,10 +158,10 @@
 
       <a href="#" class="mini-food-menu__link link_buttom">Explor food menu</a>
 
-    </section>
+      </section>
 
-    <!-- TODAY SPECIAL -->
-    <section class="today-special">
+      <!-- TODAY SPECIAL -->
+      <section class="today-special">
 
       <h2 class="today-special__heading">Today Special</h2>
 
@@ -182,7 +185,8 @@
 
       </div>
 
-    </section>
+      </section>
+      </div>
 
     <!-- RESERVE -->
     <section class="reserve">
@@ -211,17 +215,12 @@
           <label for="reserve-form-tel" class="visually-hidden">Phone</label>
           <input type="tel" class="form__tel-number" placeholder="Phone*" id="reserve-form-tel" required>
 
-          <button type="submit">Make reservation</button>
+          <button type="submit" class="reserve-form__btn">Make reservation</button>
 
         </form>
 
-        <p class="reserve__additional-info">You can also call for a reservation</p>
+        <p class="reserve__additional-info">You can also call <span class="reserve__additional-info_pink-color">for a reservation</span></p>
         <p class="reserve__tel-number">1-007 000 005</p>
-        <a href="#" class="reserve__link link_buttom">Make reservation</a>
-
-        <!-- THIS IMG MAKE USING BEFORE/AFTER -->
-        <img src="http://via.placeholder.com/293x293" alt="rewies-img" class="reserve__rewies-img">
-        <img src="http://via.placeholder.com/241x234" alt="rewies-img" class="reserve__rewies-img">
 
       </div>
 
@@ -231,10 +230,6 @@
     <section class="rewies">
 
       <div class="container">
-
-        <input type="radio" name="rewies-slider-control" id="rewies-slider-btn-1" checked>
-        <input type="radio" name="rewies-slider-control" id="rewies-slider-btn-2">
-        <input type="radio" name="rewies-slider-control" id="rewies-slider-btn-3">
 
         <h2 class="rewies__heading">Happy clients</h2>
 
