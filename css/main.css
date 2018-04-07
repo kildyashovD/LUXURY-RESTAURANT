@@ -1,0 +1,213 @@
+/*
+font-family: 'Sintony', Arial, sans-serif;
+font-family: 'Playfair Display', Times, serif;
+*/
+
+/*------------------------------------*\
+  #Базовые настройки
+\*------------------------------------*/
+
+body {
+  padding: 0;
+  margin: 0;
+
+  font-family: "Sintony", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+
+  color: rgba(0, 0, 0, 1);
+}
+
+a {
+  text-decoration: none;
+}
+
+.visually-hidden,
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  border: 0;
+
+  white-space: nowrap;
+
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #MAIN-HEADER
+\*------------------------------------*/
+
+.main-header {
+  background-image: url("http://via.placeholder.com/1970x750");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-nav__item {
+  list-style: none;
+}
+
+.main-nav__item a,
+.main-nav__reserve {
+  text-decoration: none;
+
+  font-size: 14px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: uppercase;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #REVIEWS-SLIDER
+\*------------------------------------*/
+
+.rewies-slider__carousel {
+  padding: 0;
+}
+
+.carousel__item {
+  padding: 0;
+  min-height: 750px;
+
+  list-style: none;
+
+  background-image: url("http://via.placeholder.com/1970x750");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.carousel__heading,
+.carousel__heading_less-font-size {line-height: 40px;}
+
+.carousel__heading {
+  font-family: 'Playfair Display', Times, serif;
+  font-size: 62px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.carousel__heading_less-font-size {
+  font-size: 42px;
+}
+
+.carousel__paragraph {
+  margin: 0;
+  padding: 0;
+
+  color: rgb(254, 161, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.rewies-slider__tel-number {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Playfair Display', Times, serif;
+  font-size: 36px;
+  line-height: 22px;
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+/*------------------------------------*\
+  #MINI-FOOD-MENU
+\*------------------------------------*/
+
+.mini-food-menu__heading {
+  font-family: 'Playfair Display', Times, serif;
+  font-size: 35px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+.mini-food-menu__list {
+  padding: 0;
+}
+
+.mini-food-menu__item {
+  list-style: none;
+}
+
+.mini-food-menu__name {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 17px;
+}
+
+.mini-food-menu__description {
+  line-height: 26px;
+  color: rgba(92, 99, 105, 1);
+}
+
+.mini-food-menu__price {
+  font-family: 'Playfair Display', Times, serif;
+  font-size: 26px;
+  line-height: 28px;
+}
+
+.mini-food-menu__price sup {
+  font-size: 15px;
+}
+
+.mini-food-menu__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+
+  background-color: rgb(254, 161, 0);
+}
+
+
+
+
+/*------------------------------------*\
+  #TODAY-SPECIAL
+\*------------------------------------*/
+
+.today-special__heading {
+  font-family: 'Playfair Display', Times, serif;
+  font-size: 35px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+.product-card__name-link {
+  font-family: 'Playfair Display', Times, serif;
+  color: rgba(0, 0, 0, 1);
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.product-card__price {
+  font-family: 'Playfair Display', Times, serif;
+  font-size: 22px;
+  line-height: 24px;
+  color: rgb(254, 161, 0);
+}
+
+.product-card__price sup {
+  font-size: 12px;
+}
